@@ -45,7 +45,7 @@
 	    request.onerror = function() {
       // Also deal with the case when the entire request fails to begin with
       // This is probably a network error, so reject the promise with an appropriate message
-          reject(Error('There was a network error.'));
+        reject(Error('There was a network error.'));
       };
       
       // Send the request
